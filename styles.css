@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Karla;
+    background: linear-gradient(to right, #434343 0%, black 100%);
+    padding: 10px;
+    margin: 10px;
+}
+
+h1, h2 {
+    color: white;
+}
+span{
+    color: #4ADF86; ;
+}
+
+.generate-btn{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #c0c0c0;
+    color: black;
+    font-family: inherit;
+    font-size: 15px;
+    border: none;
+    transition: background-color 0.5s;
+    font-weight: bold;
+    box-shadow: 3px 3px #aaaa;
+}
+
+.generate-btn:hover{
+    background-color: #fff ;
+}
+
+hr {
+    border-color: #10b980;
+    border: 2px solid #10b980;
+    margin-top: 30px;
+}
+
+#copy-btn {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    background-image: url(copy.png);
+    color: black;
+    border: none;
+    background-size: cover;
+    background-color: transparent;
+    position: absolute;
+    float: right;
+    left: 265px;
+    margin-top: 24px;
+}
+
+#password-one {
+    width: 230px;
+    height: 20px;
+    background-color: #c0c0c0;
+    display: inline-block;
+    margin-right: 10px ;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: black;
+    padding: 10px;
+    padding-left: 40px;
+    position: absolute;
+    font-weight: bold;
+    box-shadow: 3px 3px #aaaa;
+}
